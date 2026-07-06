@@ -1,0 +1,21 @@
+services:
+  shipnotes:
+    build: .
+    ports:
+      - "5311:5311"
+    environment:
+      - PORT=5311
+      - ADMIN_PASSWORD=${ADMIN_PASSWORD:-admin}
+      - DATA_DIR=/data
+      # Optional BYO SMTP (can also be set in the admin Settings UI)
+      - SMTP_HOST=${SMTP_HOST:-}
+      - SMTP_PORT=${SMTP_PORT:-587}
+      - SMTP_USER=${SMTP_USER:-}
+      - SMTP_PASS=${SMTP_PASS:-}
+      - SMTP_FROM=${SMTP_FROM:-}
+    volumes:
+      - shipnotes-data:/data
+    restart: unless-stopped
+
+volumes:
+  shipnotes-data:
