@@ -84,7 +84,7 @@ Node 20+ · Express · better-sqlite3 · React 18 (Vite) · Tailwind CSS 4 · Fr
 
 Don't want to touch a terminal? Grab the packaged installer (plus updates) on Whop:
 
-**→ [https://whop.com/onetime-suite](https://whop.com/onetime-suite)**
+**→ [https://whop.com/benjisaiempire/shipnotes](https://whop.com/benjisaiempire/shipnotes)**
 
 ## Testing
 
