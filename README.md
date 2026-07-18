@@ -1,5 +1,9 @@
 # 🚢 Shipnotes
 
+## Demo
+
+VIDEO-PLACEHOLDER
+
 ![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)
 
 **Self-hosted changelog + public roadmap + feature request board. Pay once, own it forever — no Canny subscription.**
